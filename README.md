@@ -1,2 +1,2 @@
 # NGAAKEK-KOM-BOGA
-Calendrier du peuple bassa du littoral cameroun, dats et evenements speciaux y compris.
+Calendrier du peuple bassa du littoral cameroun, dates et evenements speciaux y compris.
