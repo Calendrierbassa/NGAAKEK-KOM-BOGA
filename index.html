@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
-  <title>Calendrier Bassa'a Perpétuel - NGAAKEK KOM BOGA</title>
+  <title>Calendrier Basaa Perpétuel - NGAAKEK KOM BOGA</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#1a5c2e">
@@ -747,7 +747,7 @@
 </head>
 <body>
   <div class="header">
-    <h1>Calendrier Bassa'a - NGAAKEK KOM BOGA</h1>
+    <h1>Calendrier Basaa - NGAAKEK KOM BOGA</h1>
     <p>Un calendrier traditionnel basé sur le système 12 mois × 3 semaines × 10 jours (360 jours/an) + 5 jours de Ngand Babog</p>
   </div>
   
@@ -756,7 +756,7 @@
     <div class="calendar-section">
       <!-- NOUVEAU SELECTEUR DE DATE -->
       <div class="date-selector">
-        <h3>📅 Aller à une date précise</h3>
+        <h3>🗒️ Aller à une date précise</h3>
         <div class="date-selector-form">
           <div class="date-input-group">
             <label for="year-input">Année NWII</label>
@@ -764,7 +764,7 @@
           </div>
           
           <div class="date-input-group">
-            <label for="month-select">Mois Bassa'a</label>
+            <label for="month-select">Mois Basaa</label>
             <select id="month-select">
               <!-- Les mois seront ajoutés par JavaScript -->
             </select>
@@ -779,7 +779,7 @@
           
           <div class="date-selector-buttons">
             <button class="date-selector-btn" id="go-today-btn">
-              <span>📅</span> Aujourd'hui
+              <span>🗒️</span> Aujourd'hui
             </button>
             <button class="date-selector-btn primary" id="go-date-btn">
               <span>🚀</span> Aller à cette date
@@ -816,7 +816,7 @@
     <div class="info-section">
       <!-- INFORMATIONS DU JOUR -->
       <div class="info-card current-info">
-        <h2>📅 Informations du jour</h2>
+        <h2>🗒️ Informations du jour</h2>
         
         <div class="info-item">
           <div class="info-label">Année NWII</div>
@@ -869,7 +869,7 @@
       <button class="close-btn" id="close-modal">&times;</button>
       <h2>⟪ Ndeg Ndopol ⟫</h2>
       <div class="notes">
-        <p><strong>Bassa ba bi bodol aŋ ni bok ngeda len 42794 nwii</strong><br><br>
+        <p><strong>Basaa ba bi bodol aŋ ni bok ngeda len 42794 nwii</strong><br><br>
         hala we 25 ma bikèk bi hisòt (cycles sothiaques) i lò ane i bi farao i be bodòl i Kemet.<br>
         Kèk hisòt yada i nòm 1460 nwii.<br>
         I kèk di yè, i bi bodle i nwii 42369, len 425 nwii. I ga melel i nwii 43830, len 1036 nwii.<br>
@@ -1032,7 +1032,7 @@
       
       function bassaToGregorianYear(bassaYear) {
         // Simple soustraction : année grégorienne = année bassa - 40769
-        return bassaYear - YEAR_DIFFERENCE;
+        return basaaYear - YEAR_DIFFERENCE;
       }
       
       function gregorianToBassaYear(gregorianYear) {
